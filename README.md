@@ -2,7 +2,7 @@
 The official repository of all Technovus workshops
 
 # Index
- 1. Swarmbots
+ 1. Swarmbots Workshops
     1. [Workshop 1](/swarmbots/workshop1.md)
     2. [Workshop 2](/swarmbots/workshop2.md)
     
