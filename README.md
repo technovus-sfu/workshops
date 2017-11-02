@@ -7,8 +7,8 @@ The official repository of all Technovus workshops
     2. [Workshop 2](/swarmbots/workshop2.md)
     
  2. Buil-it-yourself
-    1. Workshop 1
-    2. Workshop 2
-    3. Workshop 3
-    4. Workshop 4
-    5. Workshop 5
+    1. [Module 1](/build_it_yourself/module1.pdf)
+    2. [Module 2](/build_it_yourself/module2.pdf)
+    3. [Module 3](/build_it_yourself/module3.pdf)
+    4. [Module 4](/build_it_yourself/module4.pdf)
+    5. [Module 5](/build_it_yourself/module5.pdf)
