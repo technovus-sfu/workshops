@@ -16,7 +16,7 @@ what a microcontroller can supply. DC motor drivers allow us to power DC motors 
 ![2 motor circuit image](https://i.imgur.com/227WPmz.png)
 ## Code
 The following code runs Motor A and B clockwise and then counterclockwise for 2 seconds each.
-```
+```c
 //Motor A
 const int motorPin1  = 5;  // Connected to Pin 14 of L293D for Motor A
 const int motorPin2  = 6;  // Connected to Pin 10 of L293D for Motor A
@@ -127,7 +127,7 @@ We can perform serial communication wirelessly using the HC-05 module. The follo
 ![](https://i.imgur.com/Ny665JS.png)
 ### Code
 The following code checks using `Serial.available` if serial data was sent to the microcontroller. If something was sent then the sent byte of data is read as a `char` using `Serial.read` and printed using `Serial.print`.
-```
+```c
 void setup()                    // run once, when the sketch starts
 {
  Serial.begin(9600);            // set the baud rate to 9600, same should be of your Serial Monitor
