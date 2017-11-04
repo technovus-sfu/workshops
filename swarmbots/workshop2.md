@@ -104,7 +104,7 @@ The values in the table below are gathered from commonly available communication
 HC-05 is a low-power low-cost wireless serial to bluetooth transceiver. This is the wireless communication bluetooth module that is used by the swarmbots. The module's datasheet can be found [here](http://www.electronicaestudio.com/docs/istd016A.pdf).
 ### Using serial communication (UART)
 The following code will transmit "Hello World!" three times using serial communication. The transmitted message can be viewed using Arduino software by opening the serial monitor (`Tools`>`Serial Monitor` or `Ctrl`+`Shift`+`M`). Besides Arduino's serial monitor, any program capable of receiving serial communication can be used to read this message such as PuTTY, MATLAB, Python etc.
-```
+```c
 void setup(){
 
     // initialize serial communication
