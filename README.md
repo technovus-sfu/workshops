@@ -1,4 +1,4 @@
-# Workshops
+# Workshops :card_index:
 The official repository of all Technovus workshops
 
 # Index
