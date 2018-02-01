@@ -17,16 +17,39 @@ It allows tracking of changes applied on any text encoded file. Git can be insta
 
 Every user has an account and projects are collaborated on through the user account. Organisations also exist on [Github] and can hold together all the projects associated with that organisation.
 
-The [Technovus](https://github.com/technovus-sfu/) github organisation is going to be used to document and track all of thr running projects.
+The [Technovus](https://github.com/technovus-sfu/) github organisation is going to be used to document and track all of our running projects.
 
 &nbsp;
 ## Markdown
-[Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
+[Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML). It can be compared to LaTeX but not as robust which is why it is ideal for quick markup. For example, this document was prepared in Markdown.
+
+Markdown is identified by files with the extension `.md`. This is how a sample markdown file might look
+```markdown
+# Words to the esteemed Members
+Welcome to [Technovus](http://technovus.ca). Dont forget to do the following:
+
+## TODO
+- [x] Attend workshop
+- [ ] Sign up for [Mechathon18]
+- [ ] Watch Black Panther
+
+[Mechathon18]: http://mechathon.technovus.ca/
+```
+The above turns into:
+
+# Words to the esteemed Members
+Welcome to [Technovus](http://technovus.ca). Dont forget to do the following:
+
+## TODO
+- [x] Attend workshop
+- [ ] Sign up for [Mechathon18]
+- [ ] Watch Black Panther
+
+[Mechathon18]: http://mechathon.technovus.ca/
 
 &nbsp;
-We wont be using all the features of git but the tools that github provides.
-
 ## Interlude
+We wont be using all the features of git but the tools that github provides.
 ### Create your Project Repository
 You should already be a member of the organisation
 1. Sign into your github account
