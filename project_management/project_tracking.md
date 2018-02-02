@@ -24,26 +24,68 @@ The [Technovus](https://github.com/technovus-sfu/) github organisation is going 
 [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML). It can be compared to LaTeX but not as robust which is why it is ideal for quick markup. For example, this document was prepared in Markdown.
 
 Markdown is identified by files with the extension `.md`. This is how a sample markdown file might look
-```markdown
-# Words to the esteemed Members
+````markdown
+# Words to the Esteemed Members
 Welcome to [Technovus](http://technovus.ca). Dont forget to do the following:
 
 ## TODO
 - [x] Attend workshop
 - [ ] Sign up for [Mechathon18]
-- [ ] Watch Black Panther
+- [ ] Watch `Black Panther`
+
+```c++
+// C++
+int buff = 0xff;
+printf("Hello world!");
+```
+
+```python
+# Python
+str = "Hello World!"
+print(str)
+```
+
+```bash
+# Bash
+#!/bin/bash
+# Russian Roulette Safe
+[ $[ $RANDOM % 6 ] == 0 ] && echo 'Boom!' || echo 'Lucky boy';
+```
+
+![alt logo](http://www.technovus.ca/wp-content/uploads/2017/07/cropped-cropped-Asset-3-1.png)
 
 [Mechathon18]: http://mechathon.technovus.ca/
-```
+````
 The above turns into:
 
-# Words to the esteemed Members
+# Words to the Esteemed Members
 Welcome to [Technovus](http://technovus.ca). Dont forget to do the following:
 
 ## TODO
 - [x] Attend workshop
 - [ ] Sign up for [Mechathon18]
-- [ ] Watch Black Panther
+- [ ] Watch `Black Panther`
+
+```c++
+// C++
+int buff = 0xff;
+printf("Hello world!");
+```
+
+```python
+# Python
+str = "Hello World!"
+print(str)
+```
+
+```bash
+# Bash
+#!/bin/bash
+# Russian Roulette Safe
+[ $[ $RANDOM % 6 ] == 0 ] && echo 'Boom!' || echo 'Lucky boy';
+```
+
+![alt logo](http://www.technovus.ca/wp-content/uploads/2017/07/cropped-cropped-Asset-3-1.png)
 
 [Mechathon18]: http://mechathon.technovus.ca/
 
